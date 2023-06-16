@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="addBookPane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="425.0" prefWidth="1151.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mylibrary.adminPages.adminPagesController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="560.0" prefWidth="380.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 20, 0, 0, 0);">
+               <image>
+                  <Image url="@../img/addBook2.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="560.0" prefWidth="380.0" spacing="15.0">
+         <children>
+            <Label alignment="CENTER" style="-fx-effect: dropshadow(three-pass-box, rgba(255,255,0,0.4), 25, 0, 5, 5);" text="Add Book" textFill="#a25f35">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <TextField fx:id="bookTitle" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="250.0" promptText="Book Title" />
+            <TextField fx:id="authorName" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="250.0" promptText="Author Name" />
+            <TextField fx:id="nbCopies" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="250.0" promptText="Number of Copies" />
+            <SplitMenuButton fx:id="categoriesList_addBook" contentDisplay="CENTER" mnemonicParsing="false" onMouseEntered="#getCategories" prefWidth="175.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 15, 0, 0, 0);" stylesheets="@myStyle.css" text="Categories" textFill="WHITE">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </SplitMenuButton>
+            <DatePicker fx:id="publicationDate" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" promptText="Publication Date" />
+            <TextArea fx:id="description" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="300.0" promptText="Description" />
+            <Label fx:id="addBookMsg" prefHeight="20.0" prefWidth="350.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="60.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="addBook" mnemonicParsing="false" onAction="#addNewBook" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="35.0" prefWidth="118.0" style="-fx-background-color: #A25F35; -fx-text-fill: white; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 15, 0, 0, 0);" text="ADD" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="560.0" prefWidth="380.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 20, 0, 0, 0);">
+               <image>
+                  <Image url="@../img/addBook1.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+            
+</HBox>

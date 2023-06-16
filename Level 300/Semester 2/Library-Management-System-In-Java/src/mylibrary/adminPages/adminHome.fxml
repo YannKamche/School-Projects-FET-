@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane_adminHome" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="875.0" prefWidth="1196.0" style="-fx-background-image: url('file:C:/Users/user/Desktop/myLibrary/src/mylibrary/img/image1.png');" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mylibrary.adminPages.adminPagesController">
+   <children>
+      <VBox alignment="CENTER" layoutX="21.0" layoutY="16.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="673.0" prefWidth="1196.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="205.0" prefWidth="1196.0">
+               <children>
+                  <ImageView fitHeight="189.0" fitWidth="1151.0" style="-fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 20, 0, 0, 0);">
+                     <image>
+                        <Image url="@../img/Using-the-Library-Header-1200x200.jpg" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="-Infinity" prefHeight="60.0" prefWidth="1151.0" spacing="3.0">
+               <children>
+                  <Button fx:id="addCategory" mnemonicParsing="false" onAction="#adminToAddCategory" onMouseClicked="#selectedOption" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="60.0" prefWidth="161.0" style="-fx-background-color: #A25F35; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 5, 0, 0, 0);" text="Add Category" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets bottom="-30.0" left="-30.0" right="-30.0" top="-30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="removeCategory" mnemonicParsing="false" onAction="#adminToRemoveCategory" onMouseClicked="#selectedOption" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="60.0" prefWidth="178.0" style="-fx-background-color: #A25F35; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 5, 0, 0, 0);" text="Remove Category" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets bottom="-30.0" left="-30.0" right="-30.0" top="-30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="addBook" mnemonicParsing="false" onAction="#adminToAddBook" onMouseClicked="#selectedOption" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="60.0" prefWidth="133.0" style="-fx-background-color: #A25F35; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 5, 0, 0, 0);" text="Add Book" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets bottom="-30.0" left="-30.0" right="-30.0" top="-30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="removeBook" mnemonicParsing="false" onAction="#adminToRemoveBook" onMouseClicked="#selectedOption" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="60.0" prefWidth="154.0" style="-fx-background-color: #A25F35; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 5, 0, 0, 0);" text="Remove Book" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets bottom="-30.0" left="-30.0" right="-30.0" top="-30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="updateBook" mnemonicParsing="false" onAction="#adminToUpdateBook" onMouseClicked="#selectedOption" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="60.0" prefWidth="145.0" style="-fx-background-color: #A25F35; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 5, 0, 0, 0);" text="Update Book" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets bottom="-30.0" left="-30.0" right="-30.0" top="-30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="addMember" mnemonicParsing="false" onAction="#adminToAddMember" onMouseClicked="#selectedOption" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="60.0" prefWidth="137.0" style="-fx-background-color: #A25F35; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 5, 0, 0, 0);" text="Add Member" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets bottom="-30.0" left="-30.0" right="-30.0" top="-30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="removeMember" mnemonicParsing="false" onAction="#adminToRemoveMember" onMouseClicked="#selectedOption" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="60.0" prefWidth="166.0" style="-fx-background-color: #A25F35; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 5, 0, 0, 0);" text="Remove Member" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets bottom="-30.0" left="-30.0" right="-30.0" top="-30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="logout" mnemonicParsing="false" onAction="#logoutAdmin" onMouseEntered="#myHoverFunctionStart" onMouseExited="#myHoverFunctionEnd" prefHeight="60.0" prefWidth="135.0" style="-fx-background-color: #A25F35; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 5, 0, 0, 0);" text="Logout" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets bottom="-30.0" left="-30.0" right="-30.0" top="-30.0" />
+                     </padding>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox fx:id="adminHomePane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="572.0" prefWidth="1151.0" spacing="170.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 20, 0, 0, 0);">
+               <children>
+                  <ImageView fx:id="welcome" fitHeight="460.0" fitWidth="825.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/admin2.png" />
+                     </image>
+                  </ImageView>
+               </children></HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WimaxCoverageStudy>
+ <Techno>LTE</Techno>
+ <Name>Coverage by Signal Level (DL) 0</Name>
+ <Display>
+  <minZoom>500</minZoom>
+  <maxZoom>20000000</maxZoom>
+  <visible>Yes</visible>
+  <Type>ByIntervals</Type>
+  <FieldSelector>80000009</FieldSelector>
+  <FieldDesc>
+   <FieldId>80000009</FieldId>
+   <FieldTitle>Best Signal Level (dBm)</FieldTitle>
+  </FieldDesc>
+  <Opacity>50</Opacity>
+  <Items>
+   <Item>
+    <Min>-70.</Min>
+    <Legend>Best Signal Level (dBm) &gt;=-70</Legend>
+    <MainColor>255 0 0</MainColor>
+    <SecondaryColor>0 0 0</SecondaryColor>
+    <LineStyle>5</LineStyle>
+    <LineWidth>15</LineWidth>
+    <FillStyle>1</FillStyle>
+   </Item>
+   <Item>
+    <Min>-75.</Min>
+    <Legend>Best Signal Level (dBm) &gt;=-75</Legend>
+    <MainColor>254 145 0</MainColor>
+    <SecondaryColor>0 0 0</SecondaryColor>
+    <LineStyle>5</LineStyle>
+    <LineWidth>15</LineWidth>
+    <FillStyle>1</FillStyle>
+   </Item>
+   <Item>
+    <Min>-80.</Min>
+    <Legend>Best Signal Level (dBm) &gt;=-80</Legend>
+    <MainColor>218 254 0</MainColor>
+    <SecondaryColor>0 0 0</SecondaryColor>
+    <LineStyle>5</LineStyle>
+    <LineWidth>15</LineWidth>
+    <FillStyle>1</FillStyle>
+   </Item>
+   <Item>
+    <Min>-85.</Min>
+    <Legend>Best Signal Level (dBm) &gt;=-85</Legend>
+    <MainColor>73 254 0</MainColor>
+    <SecondaryColor>0 0 0</SecondaryColor>
+    <LineStyle>5</LineStyle>
+    <LineWidth>15</LineWidth>
+    <FillStyle>1</FillStyle>
+   </Item>
+   <Item>
+    <Min>-90.</Min>
+    <Legend>Best Signal Level (dBm) &gt;=-90</Legend>
+    <MainColor>0 254 73</MainColor>
+    <SecondaryColor>0 0 0</SecondaryColor>
+    <LineStyle>5</LineStyle>
+    <LineWidth>15</LineWidth>
+    <FillStyle>1</FillStyle>
+   </Item>
+   <Item>
+    <Min>-95.</Min>
+    <Legend>Best Signal Level (dBm) &gt;=-95</Legend>
+    <MainColor>0 254 218</MainColor>
+    <SecondaryColor>0 0 0</SecondaryColor>
+    <LineStyle>5</LineStyle>
+    <LineWidth>15</LineWidth>
+    <FillStyle>1</FillStyle>
+   </Item>
+   <Item>
+    <Min>-100.</Min>
+    <Legend>Best Signal Level (dBm) &gt;=-100</Legend>
+    <MainColor>0 145 254</MainColor>
+    <SecondaryColor>0 0 0</SecondaryColor>
+    <LineStyle>5</LineStyle>
+    <LineWidth>15</LineWidth>
+    <FillStyle>1</FillStyle>
+   </Item>
+   <Item>
+    <Min>-105.</Min>
+    <Legend>Best Signal Level (dBm) &gt;=-105</Legend>
+    <MainColor>0 0 255</MainColor>
+    <SecondaryColor>0 0 0</SecondaryColor>
+    <LineStyle>5</LineStyle>
+    <LineWidth>15</LineWidth>
+    <FillStyle>1</FillStyle>
+   </Item>
+  </Items>
+  <DataTips>
+   <Item>c0000000</Item>
+   <FieldDesc>
+    <FieldId>c0000000</FieldId>
+    <FieldTitle>Prediction name</FieldTitle>
+   </FieldDesc>
+   <Item>c0000001</Item>
+   <FieldDesc>
+    <FieldId>c0000001</FieldId>
+    <FieldTitle>Legend</FieldTitle>
+   </FieldDesc>
+  </DataTips>
+ </Display>
+ <AddToLegend>1</AddToLegend>
+ <CurrentVersion>19</CurrentVersion>
+ <Resolution>50</Resolution>
+ <GUID>{42A58AE9-2F03-4EE2-8D72-BE6E6B38F026}</GUID>
+ <LockedStudy>1</LockedStudy>
+ <ComputeHisto>1</ComputeHisto>
+ <HistoPerTx>0</HistoPerTx>
+ <HistoLabel></HistoLabel>
+ <Conditions>
+  <FieldDbm>
+   <Min>-105.</Min>
+  </FieldDbm>
+  <Reliability>0.75</Reliability>
+  <TRXType></TRXType>
+  <DefTrgThreshold>0</DefTrgThreshold>
+  <Indoor>0</Indoor>
+  <WithShadowing>0</WithShadowing>
+ </Conditions>
+</WimaxCoverageStudy>

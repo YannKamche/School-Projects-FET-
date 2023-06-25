@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="626504B3-8B86-4e93-8FA2-E82FF9D3F45F" name="R1" poe="0" model="Router" settings="" system_mac="54-89-98-DF-3C-CF" com_port="2000" bootmode="0" cx="534.000000" cy="258.000000" edit_left="561" edit_top="312">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="B0586350-81EC-421f-B528-F143F9209107" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-7F-74-BE" com_port="2001" bootmode="0" cx="819.000000" cy="258.000000" edit_left="846" edit_top="312">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="626504B3-8B86-4e93-8FA2-E82FF9D3F45F" destDeviceID="B0586350-81EC-421f-B528-F143F9209107">
+            <interfacePair lineName="Copper" srcIndex="5" srcBoundRectIsMoved="0" srcBoundRect_X="604.183777" srcBoundRect_Y="285.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="5" tarBoundRectIsMoved="0" tarBoundRect_X="802.816223" tarBoundRect_Y="285.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="515" top="337" right="594" bottom="354" content="FTP Client" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="810" top="334" right="889" bottom="351" content="FTP Server" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="549" top="238" right="568" bottom="255" content=".1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="831" top="232" right="850" bottom="249" content=".2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>

@@ -1,2 +1,0 @@
-# OS-DEV
-OS Development

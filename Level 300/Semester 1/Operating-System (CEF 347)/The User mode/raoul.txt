@@ -1,0 +1,1 @@
+nasm boot-sect0.asm -f bin -o boot.bin

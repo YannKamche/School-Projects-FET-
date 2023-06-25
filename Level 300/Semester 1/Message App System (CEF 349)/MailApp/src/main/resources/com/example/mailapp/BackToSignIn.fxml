@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailapp.SignInController">
+   <center>
+      <Button fx:id="signInButton" mnemonicParsing="false" onAction="#signInButtonOnAction" prefHeight="46.0" prefWidth="94.0" style="-fx-background-color: #580599;" text="SIGN IN" textFill="#fffbfb" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Button>
+   </center>
+   <top>
+      <Text fill="#291aff" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration Successful !!!" textAlignment="CENTER" wrappingWidth="169.4700870513916" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </top>
+</BorderPane>

@@ -11,15 +11,15 @@ import './App.css';
 
 // export default App;
 
-import Header from './component/header/Header';
-import Navbar from './component/navbar/Navbar';
-import About from './component/about/About';
-import Experience from './component/experience/Experience';
+import Header from './component/header/header';
+import Navbar from './component/navbar/navbar';
+import About from './component/about/about';
+import Experience from './component/experience/experience';
 import Services from './component/services/Services';
-import Portfolio from './component/portfolio/Portfolio';
+import Portfolio from './component/portolio/Portfolio';
 import Testimonial from './component/testimonial/Testimonial';
 import Contact from './component/contact/Contact';
-import Footer from './component/footer/Footer';
+import Footer from './component/footer/footer';
 
 function App() {
 return (
